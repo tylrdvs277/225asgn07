@@ -31,5 +31,4 @@ int charCount(char *str, char c)
       result += charCount(str + 1, c);
    }
    return result;
-}
-   
+} 
